@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">2
+    <title>Document</title>
+    <style>
+       *{
+            margin:0%;
+            padding:0%;
+            box-sizing: border-box;
+        }
+        body{
+            height: 700px;
+            width: auto;
+            background-image : url("../imgs/dna.jpg");
+            backdrop-filter: blur(6px);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+        #intro{
+            height: 70px;
+            width: auto;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 25px;
+            font-family: poppins,sans-serif;
+            background-color: black;
+            color:white;
+            border:3px solid white;
+            border-radius: 25px;
+            box-shadow: 10px 10px 9px white;
+        }   
+        nav{
+            width: 200%;
+            height:auto;
+            background-color:black;
+            overflow:auto;
+            
+        }
+        ul{
+            padding:0%;
+            margin:0 0 0 150px;
+            list-style: none;
+        }
+        li{
+            float:left;
+        }
+        nav a{
+            width:100px;
+            display:block;
+            padding:20px 15px;
+            font-family:arial;
+            color: pink;
+            text-align:center;
+            text-decoration:none;
+        }
+        nav a:hover{
+            text-decoration:none;
+            background-color: green;
+            text-transform: uppercase;
+            transition: 0.55;
+            border-color: 2px solid aqua;
+            border-radius: 20px;
+        }
+        input{
+            height:30px;
+            width:350px; 
+            border:3px solid green;      
+            margin-top:15px;
+            margin-left:500px;
+            margin-bottom:10px;
+            margin-right:0px;
+            caret-color: blue;
+        }
+        input:placeholder-shown{
+        border-color: green;
+        }
+        input:not(:placeholder-shown){
+            font-size:25px;
+            font-family: poppins,sans-serif;
+            font-style: bold;
+        }
+        button{
+            height:30px;
+            width:100px;
+            font-size:19px;
+            color:white;
+            background-color:green;
+            border-radius: 15px;
+            box-shadow:10px aqua;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            font-size: 70px;
+            padding-top: 200px;
+        }
+        
+        .foo{
+            margin-top:300px;
+            height:200px;
+            width: auto;
+            background-color: black;
+            text-align: center; 
+        }
+        h2{
+            padding-top: 20px;
+            margin-top: 50px;
+            color: white;
+        }
+        #hm{
+            color: white;
+
+        } 
+    </style>
+</head>
+<body>
+    <h1 id="intro">
+        IT'S ABOUT INTROVERTS
+    </h1>
+    <br>
+<nav>
+    <ul>
+      <li><a href="#">home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">videos</a></li>
+      <li><a href="form.html">sign-in</a></li>
+
+    </ul>
+    <input type="text" placeholder="search here">
+    <span>
+        <button>search</button>           
+</nav>
+<h1>hello! my dear introverts</h1>
+<footer class="foo">
+    <h2>
+        <label>email:</label>
+        jerkoffjack@gmail.com
+    </h2>
+    
+    <h2 id="hm">website:jack.org.in</h2>
+</footer>  
+</body>
+</html>
